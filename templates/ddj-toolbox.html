@@ -6,45 +6,61 @@
     <meta name="viewport" content="width=device-width">
     <title>OKFEgypt, DDJ Toolbox</title>
 
-    <link rel="stylesheet" href="/css/foundation.css">
+    <!--link rel="stylesheet" href="/css/foundation.css"-->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <style>
+        .tweaked-margin1 {
+            margin: 1em;
+        }
+        .tweaked-margin1_5 {
+            margin: 1.5em;
+        }
+    </style>
 </head>
 <body>
 
 	<div class="row">
-		<div class="large-12 columns">
+		<div class="col-md-12">
+		    <div class="tweaked-margin1">
 			<h2>Data Visualisation Toolbox</h2>
 		    <p>
 			     This is a collection of Data Visualisation tools and libraries.<br>
 			     List is prepared by <a href="http://eg.okfn.org/">Open Knowledge Foundation, Egypt</a>.
 			</p>
 			<hr>
+			</div>
 		</div>
 	</div>
 	
 	<div class="row">
-		<div class="large-8 columns">
+		<div class="col-md-8" >
 		
+		    <div class="tweaked-margin1_5">
 		    {{#sections}}  
 			<h3>{{name}}</h3>
+			<br/>
 		    <div class="row">
-		      <div class="large-2 columns">
-		         <br/ >
-		      </div>
-		      <div class="large-10 columns">
-			     <ul>
-                 {{#items}}
+		      <ul>
+              {{#items}}
 			     <li>{{name}}: <a href="{{url}}">{{url}}</a></li>
-			     {{/items}}
-			     </ul>
-			 </div>     
-			</div>     
+			  {{/items}}
+			  </ul>    
+			</div>   
+			<hr/>  
 			{{/sections}}
+			</div>
 			
         </div>
-        <div class="large-4 columns">
+        
+        <div class="col-md-4">
+        
+            <div class="tweaked-margin1_5">
             <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FOKFNEgypt&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=31680207703" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:290px;" allowTransparency="true"></iframe>
+            </div>
+            
         </div>
+        
     </div>
 
-
-</body></html>
+</body>
+</html>
