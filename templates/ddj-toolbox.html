@@ -26,11 +26,15 @@
 		
 		    {{#sections}}  
 			<h3>{{name}}</h3>
-			<ul>
-            {{#items}}
-			<li>{{name}}: <a href="{{url}}">{{url}}</a></li>
-			{{/items}}
-			</ul>
+		    <div class="row">
+		      <div class="large-12 columns">
+			     <ul>
+                 {{#items}}
+			     <li>{{name}}: <a href="{{url}}">{{url}}</a></li>
+			     {{/items}}
+			     </ul>
+			 </div>     
+			</div>     
 			{{/sections}}
 			
         </div>
