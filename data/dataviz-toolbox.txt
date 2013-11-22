@@ -7,6 +7,7 @@
 * Processing.js, http://processingjs.org/
 * Flotr2, https://github.com/HumbleSoftware/Flotr2
 * Vincent, https://github.com/wrobstory/vincent
+* Raw, http://raw.densitydesign.org/
 _
 
 = Charts as a Service
@@ -14,7 +15,7 @@ _
 * DataWrapper, http://datawrapper.de/
 * Plotly, https://plot.ly/
 * Chartio, http://chartio.com/
-* Raw, http://raw.densitydesign.org/
+* Raw, http://app.raw.densitydesign.org/
 _
 
 = Mapping
@@ -32,12 +33,16 @@ _
 * Sigma.js, http://sigmajs.org/
 * Keyline, http://keylines.com/
 * GraphViz, http://www.graphviz.org/
--
+_
 
 = Slides
 * Reveal.js, https://github.com/hakimel/reveal.js/
--
+_
 
 = Videos
 * Popcorn.js, http://popcornjs.org/
--
+_
+
+= SVG Tools
+* SVG Crowbar, http://nytimes.github.io/svg-crowbar/ 
+_
