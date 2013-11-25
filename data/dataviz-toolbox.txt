@@ -8,6 +8,7 @@
 * Flotr2, https://github.com/HumbleSoftware/Flotr2
 * Vincent, https://github.com/wrobstory/vincent
 * Raw, http://raw.densitydesign.org/
+* Seaborn, http://stanford.edu/~mwaskom/software/seaborn/
 _
 
 = Charts as a Service
@@ -44,5 +45,7 @@ _
 _
 
 = SVG Tools
+* InkScape, http://inkscape.org/
+* Sketch, http://www.bohemiancoding.com/sketch/
 * SVG Crowbar, http://nytimes.github.io/svg-crowbar/ 
 _
