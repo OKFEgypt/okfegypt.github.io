@@ -27,6 +27,7 @@ _
 * Kartograph, http://kartograph.org/
 * Polymaps, http://polymaps.org/
 * CartoDB, http://cartodb.com/
+* Data Maps, http://datamaps.github.io/
 _
 
 = Social Networks Graphs
