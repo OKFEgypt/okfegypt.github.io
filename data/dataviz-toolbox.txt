@@ -43,6 +43,7 @@ _
 
 = Videos
 * Popcorn.js, http://popcornjs.org/
+* Mozilla Popcorn, https://popcorn.webmaker.org/
 _
 
 = SVG Tools
