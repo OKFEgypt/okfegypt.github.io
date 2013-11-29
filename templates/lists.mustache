@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>OKFEgypt, Toolbox</title>
+    <title>OKFEgypt, DDJ Toolbox</title>
 
     <!--link rel="stylesheet" href="/css/foundation.css"-->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
@@ -57,9 +57,10 @@
 	<div class="row">
 		<div class="col-md-12">
 		    <div class="tweaked-margin1">
-			<h2>OKF Egypt</h2>
+			<h2>Data Visualisation Toolbox</h2>
 		    <p>
-			     This is a collection of the tools and lists by <a href="http://eg.okfn.org/">Open Knowledge Foundation, Egypt</a>.<br>
+			     This is a collection of Data Visualisation tools and libraries.<br>
+			     List is prepared by <a href="http://eg.okfn.org/">Open Knowledge Foundation, Egypt</a>.
 			</p>
 			<hr>
 			</div>
@@ -69,12 +70,20 @@
 	<div class="row">
 		<div class="col-md-8" >
 		
-		    <div class="tweaked-margin1">
-		    <p>Current tools:</p>    
-		    <ul>
-			  <li><a href="/dataviz-toolbox.html">Data Visualisation Toolbox</a></li>
-			</ul> 
+		    <div class="tweaked-margin1_5">
+		    {{#sections}}  
+			<h3>{{name}}</h3>
+			<br/>
+		    <div class="row">
+		      <ul>
+              {{#items}}
+			     <li>{{name}}: <a href="{{url}}">{{url}}</a></li>
+			  {{/items}}
+			  </ul>    
 			</div>   
+			<hr/>  
+			{{/sections}}
+			</div>
 			
         </div>
         

@@ -1,0 +1,4 @@
+dataviz-toolbox.html:
+    title: Data Visualisation Toolbox
+    data: dataviz-toolbox.yml
+    template: lists.mustache  

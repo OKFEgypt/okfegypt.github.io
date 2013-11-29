@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>OKFEgypt, DDJ Toolbox</title>
+    <title>OKFEgypt, Toolbox</title>
 
     <!--link rel="stylesheet" href="/css/foundation.css"-->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
@@ -38,9 +38,10 @@
         <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About us <b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="http://eg.okfn.org/about-okfn-egypt/">About</a></li>
+                <li><a href="https://www.facebook.com/okfnegypt">Facebook</a></li>
+                <li><a href="https://twitter.com/OKFEgypt">Twitter</a></li>
+                <li><a href="http://eg.okfn.org/">Blog</a></li>
                 <li class="divider"></li>
                 <li><a href="#">Help</a></li>
             </ul>
@@ -56,10 +57,9 @@
 	<div class="row">
 		<div class="col-md-12">
 		    <div class="tweaked-margin1">
-			<h2>Data Visualisation Toolbox</h2>
+			<h2>OKF Egypt</h2>
 		    <p>
-			     This is a collection of Data Visualisation tools and libraries.<br>
-			     List is prepared by <a href="http://eg.okfn.org/">Open Knowledge Foundation, Egypt</a>.
+			     This is a collection of the tools and lists by <a href="http://eg.okfn.org/">Open Knowledge Foundation, Egypt</a>.<br>
 			</p>
 			<hr>
 			</div>
@@ -69,20 +69,14 @@
 	<div class="row">
 		<div class="col-md-8" >
 		
-		    <div class="tweaked-margin1_5">
-		    {{#sections}}  
-			<h3>{{name}}</h3>
-			<br/>
-		    <div class="row">
-		      <ul>
-              {{#items}}
-			     <li>{{name}}: <a href="{{url}}">{{url}}</a></li>
-			  {{/items}}
-			  </ul>    
+		    <div class="tweaked-margin1">
+		    <p>Current tools:</p>    
+		    <ul>
+            {{#pages}}
+			  <li><a href="/{{out_file}}">{{title}}</a></li>
+			{{/pages}}
+			</ul> 
 			</div>   
-			<hr/>  
-			{{/sections}}
-			</div>
 			
         </div>
         
