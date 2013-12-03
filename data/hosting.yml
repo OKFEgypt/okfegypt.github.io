@@ -1,13 +1,26 @@
-Platform-as-a-Service (PaaS):
-- Google Apps Engine, https://developers.google.com/appengine/
-- Heroku, https://www.heroku.com/
-- appfog, https://www.appfog.com/
-- dotCloud, https://www.dotcloud.com/
-- Orchard, https://orchardup.com/
-- OpenShift, https://www.openshift.com/
-- CloudFoundry, http://www.cloudfoundry.com/
+- section: Platform-as-a-Service (PaaS)
+  items:
+    - name: Google Apps Engine 
+      url: https://developers.google.com/appengine/
+    - name: Heroku 
+      url: https://www.heroku.com/
+    - name: appfog, 
+      url: https://www.appfog.com/
+    - name: dotCloud
+      url: https://www.dotcloud.com/
+    - name: Orchard
+      url: https://orchardup.com/
+    - name: OpenShift
+      url: https://www.openshift.com/
+    - name: CloudFoundry
+      url: http://www.cloudfoundry.com/
 
 
-Infrastructure-as-a-Service (IaaS):
-- Amazon AWS, http://aws.amazon.com/
-- RackSpace, http://www.rackspace.co.uk/
+- section: Infrastructure-as-a-Service (IaaS)
+  items:
+    - name: Amazon AWS
+      url: http://aws.amazon.com/
+    - name: RackSpace
+      url: http://www.rackspace.co.uk/
+    - name: DigitalOcean
+      url: https://www.digitalocean.com/

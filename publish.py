@@ -13,7 +13,7 @@ class Publish:
         self.publishing_list = []
         self.config_file = config_file
         self.load_config()
-        print self.publishing_list
+        #print self.publishing_list
     
     def load_config(self):
         fd = open(self.config_file, 'r')
@@ -37,7 +37,7 @@ class Publish:
         else:
             return filename
             
-    def parse_data(self, filename):
+    def _parse_data(self, filename):
         data = []
         fd = open(filename, 'r')
         for line in fd.readlines():
@@ -62,6 +62,13 @@ class Publish:
         fd.close()
         return {'sections': data}
     
+    def parse_yaml(self, filename):
+        fd = open(filename, 'r')
+        config_txt = fd.read()
+        fd.close()
+        config_data = yaml.load(config_txt)
+        return config_data
+    
     def publish_index(self):
         index_template = 'templates/index.mustache'
         index_out_file = 'index.html'
@@ -75,7 +82,17 @@ class Publish:
         fd.close()
 
     def publish(self):
-        pass
+        for pub_item in self.publishing_list:
+            print pub_item
+            data = {
+                'sections': self.parse_yaml(pub_item['data_file'])
+            }
+            print data
+            fd = open(pub_item['template_file'], 'r')
+            template = fd.read()
+            fd.close()
+            print pystache.render(template, data)
+        
                 
     def _publish(self, publishing_list):
         for file in publishing_list:
