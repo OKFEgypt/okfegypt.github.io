@@ -74,8 +74,10 @@ class Publish:
         fd.write(publish_html)
         fd.close()
 
+    def publish(self):
+        pass
                 
-    def publish(self, publishing_list):
+    def _publish(self, publishing_list):
         for file in publishing_list:
             data_filename = self.construct_filename(file, 'data')
             template_filename = self.construct_filename(file, 'template')
@@ -94,7 +96,7 @@ class Publish:
 def main():
     p = Publish()
     p.publish_index()
-    #p.publish(publishing_list)
+    p.publish()
 
 if __name__ == '__main__':
 
