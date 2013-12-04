@@ -12,3 +12,14 @@
       url: http://tarekamr.appspot.com/dataviz/4
     - name: Egypte function classification 2014
       url: https://openspending.org/functbudget
+
+- section: Misc.
+  items:
+    - name: The World Bank, Egypt Data
+      url: http://data.worldbank.org/country/egypt-arab-republic
+    - name: Datahub, Egypt Data
+      url: http://datahub.io/dataset?q=egypt
+    - name: The WebIndex, Egypt Data
+      url: http://thewebindex.org/data/all/country/EGY
+    - name: Data for 426 Egyptian Textile and Garments Factories
+      url: Data for 426 Egyptian Textile and Garments Factories
