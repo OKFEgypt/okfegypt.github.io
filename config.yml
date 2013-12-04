@@ -7,3 +7,8 @@ hosting.html:
     title: Hosting Options
     data: hosting.yml
     template: lists.mustache     
+    
+egydata.html:
+    title: Egypt Datasets
+    data: egydata.yml
+    template: lists.mustache    
