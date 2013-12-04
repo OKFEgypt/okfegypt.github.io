@@ -23,3 +23,5 @@
       url: http://thewebindex.org/data/all/country/EGY
     - name: Data for 426 Egyptian Textile and Garments Factories
       url: Data for 426 Egyptian Textile and Garments Factories
+    - name: Data Collected by OKF, Egypt
+      url: https://github.com/OKFEgypt/egydata
