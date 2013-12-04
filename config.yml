@@ -1,7 +1,7 @@
-#dataviz-toolbox.html:
-#    title: Data Visualisation Toolbox
-#    data: dataviz-toolbox.yml
-#    template: lists.mustache  
+dataviz-toolbox.html:
+    title: Data Visualisation Toolbox
+    data: dataviz-toolbox.yml
+    template: lists.mustache  
     
 hosting.html:
     title: Hosting Options
