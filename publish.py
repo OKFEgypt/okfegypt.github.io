@@ -85,13 +85,18 @@ class Publish:
         for pub_item in self.publishing_list:
             print pub_item
             data = {
+                'title': pub_item['title'],
                 'sections': self.parse_yaml(pub_item['data_file'])
             }
             print data
             fd = open(pub_item['template_file'], 'r')
             template = fd.read()
             fd.close()
-            print pystache.render(template, data)
+            publish_html = pystache.render(template, data)
+            print publish_html
+            fd = open(pub_item['out_file'],'w')
+            fd.write(publish_html)
+            fd.close()
         
                 
     def _publish(self, publishing_list):
@@ -118,3 +123,5 @@ def main():
 if __name__ == '__main__':
 
     main()
+    
+    
