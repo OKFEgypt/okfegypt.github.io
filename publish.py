@@ -36,31 +36,6 @@ class Publish:
             return self.templates_dir + '/' + filename
         else:
             return filename
-            
-    def _parse_data(self, filename):
-        data = []
-        fd = open(filename, 'r')
-        for line in fd.readlines():
-            if not line:
-                pass
-            elif line.startswith('='):
-                section_name = line[1:].strip()
-                section_data = {}
-                section_data['name'] = section_name
-                section_data['items'] = []
-            elif line.startswith('*'):
-                item_name, item_url = line[1:].strip().split(',') 
-                item_data = {
-                    'name': item_name.strip(),
-                    'url': item_url
-                }
-                section_data['items'].append(item_data)
-            elif line.startswith('_'):
-                data.append(section_data)
-            else:
-                pass
-        fd.close()
-        return {'sections': data}
     
     def parse_yaml(self, filename):
         fd = open(filename, 'r')
@@ -83,36 +58,21 @@ class Publish:
 
     def publish(self):
         for pub_item in self.publishing_list:
-            print pub_item
+            #print pub_item
             data = {
                 'title': pub_item['title'],
                 'sections': self.parse_yaml(pub_item['data_file'])
             }
-            print data
+            #print data
             fd = open(pub_item['template_file'], 'r')
             template = fd.read()
             fd.close()
             publish_html = pystache.render(template, data)
-            print publish_html
+            #print publish_html
             fd = open(pub_item['out_file'],'w')
             fd.write(publish_html)
             fd.close()
         
-                
-    def _publish(self, publishing_list):
-        for file in publishing_list:
-            data_filename = self.construct_filename(file, 'data')
-            template_filename = self.construct_filename(file, 'template')
-            publish_filename = self.construct_filename(file, 'publish')
-            template_data = self.parse_data(data_filename)
-            #print template_data
-            fd = open(template_filename, 'r')
-            template_html = fd.read()
-            fd.close()
-            publish_html = pystache.render(template_html, template_data)
-            fd = open(publish_filename, 'w')
-            fd.write(publish_html)
-            fd.close()
         
 
 def main():
