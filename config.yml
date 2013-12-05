@@ -2,7 +2,12 @@ dataviz-toolbox.html:
     title: Data Visualisation Toolbox
     data: dataviz-toolbox.yml
     template: lists.mustache  
-    
+
+ddj-toolbox.html:
+    title: Data Journalism Toolbox
+    data: ddj-toolbox.yml
+    template: lists.mustache    
+        
 hosting.html:
     title: Hosting Options
     data: hosting.yml
@@ -12,3 +17,5 @@ egydata.html:
     title: Egypt Datasets
     data: egydata.yml
     template: lists.mustache    
+    
+    
