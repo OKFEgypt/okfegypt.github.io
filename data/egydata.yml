@@ -12,6 +12,11 @@
       url: http://tarekamr.appspot.com/dataviz/4
     - name: Egypte function classification 2014
       url: https://openspending.org/functbudget
+      
+- section: Health Data
+  items:
+    - name: WHO Stats about Egypt
+      url: http://apps.who.int/gho/data/node.country.country-EGY?lang=en
 
 - section: Misc.
   items:
