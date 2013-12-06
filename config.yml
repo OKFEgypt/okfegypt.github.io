@@ -13,9 +13,9 @@ hosting.html:
     data: hosting.yml
     template: lists.mustache     
     
-egydata.html:
+egypt-datasets.html:
     title: Egypt Datasets
-    data: egydata.yml
+    data: egypt-datasets.yml
     template: lists.mustache    
     
     
