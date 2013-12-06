@@ -18,4 +18,9 @@ egypt-datasets.html:
     data: egypt-datasets.yml
     template: lists.mustache    
     
+   
+egypt-vcs.html:
+    title: Egypt Venture Capitals
+    data: egypt-vcs.yml
+    template: lists.mustache       
     

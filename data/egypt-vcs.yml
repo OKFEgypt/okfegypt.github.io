@@ -1,0 +1,21 @@
+- section: Incubators
+  items:
+    - name: Flat6 Labs
+      url: http://www.flat6labs.com/
+    - name: Juice Labs
+      url: http://juicelabs.me/
+    - name: Innoventures
+      url: http://www.innoventures.me/
+    - name: Tahrir2
+      url: http://tahrir2.com
+      
+- section: Startup Competitions
+  items:
+    - name: AUC Venture Lab Challenge
+      url: http://ebda3.aucegypt.edu/
+      
+- section: Venture Capitals
+  items:
+    - name: Citadel Capital
+      url: http://citadelcapital.com/
+
