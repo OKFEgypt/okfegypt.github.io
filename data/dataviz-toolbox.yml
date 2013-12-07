@@ -10,6 +10,8 @@
       url: https://developers.google.com/chart/
     - name: NVD3
       url: http://nvd3.org/
+    - name: PlotKit
+      url: http://www.liquidx.net/plotkit/
     - name: Processing.js
       url: http://processingjs.org/
     - name: Flotr2
