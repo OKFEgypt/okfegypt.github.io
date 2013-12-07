@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>OKFEgypt, Toolbox</title>
+
+    <!--link rel="stylesheet" href="/css/foundation.css"-->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <style>
+        .tweaked-margin1 {
+            margin: 1em;
+        }
+        .tweaked-margin1_5 {
+            margin: 1.5em;
+        }
+        
+        body { 
+            padding-top: 70px; 
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><span>OKF Egypt</span></a>
+    </div>
+    <div class="collapse navbar-collapse">
+        <!--ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        </ul-->
+        <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About us <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://eg.okfn.org/about-okfn-egypt/">About</a></li>
+                <li><a href="https://www.facebook.com/okfnegypt">Facebook</a></li>
+                <li><a href="https://twitter.com/OKFEgypt">Twitter</a></li>
+                <li><a href="http://eg.okfn.org/">Blog</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </li>
+        </ul>
+
+    </div>
+    </div>
+</nav>
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-12">
+		    <div class="tweaked-margin1">
+			<h2>OKF Egypt</h2>
+		    <p>
+			     This is a collection of the tools and lists by <a href="http://eg.okfn.org/">Open Knowledge Foundation, Egypt</a>.<br>
+			</p>
+			<hr>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-8" >
+		
+		    <div class="tweaked-margin1">
+		    <p>How to edit a list:</p>    
+		    <ul>
+			  <li>Go to the repo <a href="https://github.com/OKFEgypt/okfegypt.github.io">https://github.com/OKFEgypt/okfegypt.github.io</a></li>
+			  <li>Fork the repo. (Here is <a href="https://help.github.com/articles/fork-a-repo" target="_blank">a brief about github forking</a></li>
+			  <li>
+			     Now on your computer's command line clone the new repo:
+			     <code>git clone git@github.com:USERNAME/okfegypt.github.io.git</code>
+			     Where USERNAME is your github username (You have to have a github account of course)
+			  </li>
+			  <li>The data used to populate the lists are in the YAML files in the '/data' folder. Feel free to add items there following the same format of the file.</li>
+			  <li>Publish your output using 'python publish', you need to make sure you have Python, pystache and pyyaml installed on your computer</li>
+			  <li>
+			     Type the following commands when done:
+			     <code>git add '*.yml'</code>
+			     <code>git add '*.html'</code>
+			     <code>git commit -m 'WRITE HERE A BRIEF ABOUT WHAT YOU HAVE DONE'</code>
+			     <code>git push</code>
+			   </li>
+			  <li>Then issue <a href="https://help.github.com/articles/using-pull-requests" target="_blank">a pull request</a> for us to incorporate your changes.</li>
+			</ul> 
+			</div>   
+			
+        </div>
+        
+        <div class="col-md-4">
+        
+            <div class="tweaked-margin1_5">
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FOKFNEgypt&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=31680207703" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:290px;" allowTransparency="true"></iframe>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+<!--Footer-->
+<div class="row padded text-center">
+    <div class="col-md-12 text-center">
+        <br/><hr/> 
+    </div>
+</div>
+
+<div class="row padded text-center">
+    <div class="col-md-12 text-center">
+        <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br/><br/>
+        Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons License</a>.    
+    </div>
+</div>
+<!--/Footer-->
+
+</body>
+</html>
