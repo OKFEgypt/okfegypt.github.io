@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import json
 import pystache
 import yaml
 
@@ -23,6 +24,7 @@ class Publish:
         for out_file, out_file_params in config_data.items():
             publish_item = {}
             publish_item['out_file'] = out_file
+            publish_item['json_file'] = 'json/' + out_file.rsplit('.',1)[0] + '.json'
             publish_item['title'] = out_file_params['title']
             publish_item['data_file'] = self.construct_filename(out_file_params['data'], 'data')
             publish_item['template_file'] = self.construct_filename(out_file_params['template'], 'template')
@@ -71,6 +73,9 @@ class Publish:
             #print publish_html
             fd = open(pub_item['out_file'],'w')
             fd.write(publish_html)
+            fd.close()
+            fd = open(pub_item['json_file'],'w')
+            fd.write(json.dumps(data))
             fd.close()
         
         
