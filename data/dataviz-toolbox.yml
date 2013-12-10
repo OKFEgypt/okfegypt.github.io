@@ -95,7 +95,9 @@
       
 - section: Colours
   items:
-    - name: Color Oracle for Colour Blindness
+    - name: Color Oracle
       url: http://colororacle.org/
+    - name: Color Brewer
+      url: http://colorbrewer2.com/
       
   
