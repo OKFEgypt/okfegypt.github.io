@@ -82,6 +82,8 @@
       url: http://popcornjs.org/
     - name: Mozilla Popcorn
       url: https://popcorn.webmaker.org/
+    - name: Infogram Videos
+      url: http://infogr.am/video/
 
 
 - section: SVG Tools
