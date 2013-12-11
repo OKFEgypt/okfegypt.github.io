@@ -22,6 +22,8 @@
       url: http://raw.densitydesign.org/
     - name: Seaborn
       url: http://stanford.edu/~mwaskom/software/seaborn/
+    - name: Veusz
+      url: http://home.gna.org/veusz/
 
 
 - section: Charts as a Service
