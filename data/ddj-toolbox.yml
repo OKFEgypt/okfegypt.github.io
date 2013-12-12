@@ -3,6 +3,11 @@
     - name: W3C HTML Diff Tool
       url: http://services.w3.org/htmldiff
 
+- section: Data Handling
+  items:
+    - name: Data Pipes
+      url: http://datapipes.okfnlabs.org/
+
 - section: Data Analysis
   items:
     - name: Bamboo.io
