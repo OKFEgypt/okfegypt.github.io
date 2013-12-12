@@ -88,6 +88,9 @@
       url: https://popcorn.webmaker.org/
     - name: Infogram Videos
       url: http://infogr.am/video/
+    - name: Moovly
+      url: http://www.moovly.com/
+      
 
 
 - section: SVG Tools
