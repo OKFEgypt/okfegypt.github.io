@@ -24,3 +24,8 @@
       url: http://www.rackspace.co.uk/
     - name: DigitalOcean
       url: https://www.digitalocean.com/
+      
+- section: VPS Hosting
+  items:
+    - name: Media Temple
+      url: http://mediatemple.net/
