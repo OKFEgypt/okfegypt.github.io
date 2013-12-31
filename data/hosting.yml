@@ -14,7 +14,9 @@
       url: https://www.openshift.com/
     - name: CloudFoundry
       url: http://www.cloudfoundry.com/
-
+    - name: CloudControl
+      url: https://www.cloudcontrol.com/
+      
 
 - section: Infrastructure-as-a-Service (IaaS)
   items:
