@@ -1,0 +1,29 @@
+- section: NGO promoting Open Data
+  items:
+    - name: Arabic Digital Expression Foundation (ADEF)
+      url: http://arabdigitalexpression.org/
+    - name: Association for Freedom of Thought and Expression (AFTE)
+      url: http://afteegypt.org/
+    - name: Egyptian Center for Economic and Social Rights (ECESR)
+      url: http://ecesr.org/
+    - name: Support for Information Technology Centre (SITC)
+      url: http://sitcegypt.org/
+
+- section: Institutes promoting Open Access
+  items:
+    - name: AUC A2K4D
+      url: http://www.aucegypt.edu/Business/A2K4D/Pages/default.aspx
+    - name: Libre Books
+      url: http://librebooks.org/
+
+- section: Institutes promoting Free and Open Source Software
+  items:
+    - name: Open Egypt
+      url: https://twitter.com/OpenEgypt
+    - name: The Software Engineering Competence Center (SECC)
+      url: http://www.secc.org.eg/
+
+- section: Institutes promoting Open Cities
+  items:
+    - name: Tadamun 
+      url: http://www.tadamun.info/

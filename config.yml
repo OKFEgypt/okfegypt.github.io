@@ -7,20 +7,23 @@ ddj-toolbox.html:
     title: Data Journalism Toolbox
     data: ddj-toolbox.yml
     template: lists.mustache    
-        
+
 hosting.html:
     title: Hosting Options
     data: hosting.yml
     template: lists.mustache     
-    
+
 egypt-datasets.html:
     title: Egypt Datasets
     data: egypt-datasets.yml
     template: lists.mustache    
-    
-   
+
 egypt-vcs.html:
     title: Egypt Venture Capitals
     data: egypt-vcs.yml
+    template: lists.mustache 
+
+egypt-orgs.html:
+    title: Egypt Organizations
+    data: egypt-orgs.yml
     template: lists.mustache       
-    
