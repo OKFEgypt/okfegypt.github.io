@@ -1,4 +1,4 @@
-- section: NGO promoting Open Data
+- section: NGOs promoting Open Data
   items:
     - name: Arabic Digital Expression Foundation (ADEF)
       url: http://arabdigitalexpression.org/
@@ -16,7 +16,7 @@
     - name: Libre Books
       url: http://librebooks.org/
 
-- section: Institutes promoting Free and Open Source Software
+- section: Institutes promoting Free and Open Source Software (FOSS)
   items:
     - name: Open Egypt
       url: https://twitter.com/OpenEgypt
