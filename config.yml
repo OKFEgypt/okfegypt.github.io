@@ -30,5 +30,5 @@ egypt-orgs.html:
 
 egypt-hacks.html:
     title: Egypt Coding Projects
-    data: egypt-orgs.yml
+    data: egypt-hacks.yml
     template: lists.mustache       
