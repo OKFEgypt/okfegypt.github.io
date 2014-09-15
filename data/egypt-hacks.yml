@@ -1,0 +1,4 @@
+- section: Electricity
+  items:
+    - name: Power Grid Load Status As A Web Service
+      url: http://www.gridstatusnow.com/

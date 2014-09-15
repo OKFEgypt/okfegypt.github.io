@@ -26,4 +26,9 @@ egypt-vcs.html:
 egypt-orgs.html:
     title: Egypt Organizations
     data: egypt-orgs.yml
+    template: lists.mustache  
+
+egypt-hacks.html:
+    title: Egypt Coding Projects
+    data: egypt-orgs.yml
     template: lists.mustache       
