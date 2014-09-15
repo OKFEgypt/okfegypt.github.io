@@ -4,3 +4,17 @@
       url: http://www.gridstatusnow.com/
     - name: Power Network Load Meter (JavaScript)
       url: http://kashwaa.github.io/loadmeter/
+
+- section: Transportation
+  items:
+    - name: Taxi Ride Cost Calculator
+      url: http://mtayseer.github.io/my-taxi-ride/
+    - name: Scape traffic data from Bey2ollak.com
+      url: https://github.com/mtayseer/bey2ollak_scraping
+
+- section: Site Seeing
+  items:
+    - name: Cairo Street Stories
+      url: https://github.com/mtayseer/cairo_streets_stories
+    - name: Egypt Landmarks 
+      url: https://github.com/OKFEgypt/egyptlandmarks
