@@ -2,3 +2,5 @@
   items:
     - name: Power Grid Load Status As A Web Service
       url: http://www.gridstatusnow.com/
+    - name: Power Network Load Meter (JavaScript)
+      url: http://kashwaa.github.io/loadmeter/

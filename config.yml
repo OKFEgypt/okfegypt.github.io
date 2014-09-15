@@ -29,6 +29,6 @@ egypt-orgs.html:
     template: lists.mustache  
 
 egypt-hacks.html:
-    title: Egypt Coding Projects
+    title: Egypt Civic Hacking
     data: egypt-hacks.yml
     template: lists.mustache       
