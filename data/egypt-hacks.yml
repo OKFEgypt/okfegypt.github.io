@@ -12,6 +12,11 @@
     - name: Scape traffic data from Bey2ollak.com
       url: https://github.com/mtayseer/bey2ollak_scraping
 
+- section: Financial
+  items:
+    - name: Mwazna
+      url: http://mwazna.com/en/
+
 - section: Site Seeing
   items:
     - name: Cairo Street Stories
